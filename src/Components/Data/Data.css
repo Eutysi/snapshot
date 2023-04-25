@@ -1,0 +1,21 @@
+.image-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: space-between;
+}
+.image-container :hover{
+    transform: scale(1.5);
+}
+.first-container, .second-container{
+    text-align: center;
+}
+h1{
+    color: red;
+}
+button{
+    background-color: black;
+    color: white;
+    margin: 7px;
+
+}
